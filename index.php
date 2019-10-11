@@ -24,7 +24,7 @@
 		 <ul>
 			<li id="logo"><a href="index.php">SOSTEN</a></li>
 			<li><a href="index.php">Home</a></li>
-			<li><a href="Blog.php">Blog</a></li>
+			<li><a href="#Blog">Blog</a></li>
 			<li><a href="Portfolio.php">Portfolio</a></li>
 			<li><a href="About.php">About</a></li>
 			<li><a href="Service.php">Service</a></li>
@@ -39,16 +39,32 @@
 	   </nav>
 	 </div>
   </div>
-    <div class="description">
     	<div class="row">
-    		<div class="col-md-12">
+    		<div class="col-md-7">
+    		  <div class="description">
     			<h1>I Am a Software Developer</h1>
     			<p>UX/UI Developer by profession;</p>
-    			<p>I Design and Develope Responsive Websites, Web Applications from Scratch. These Apps fits on all Screen Size devices, from Large Screen to a Mobile Phone Screen. Also these Apps has favoured SEO high priority.</p>
+    			<p>I Design and Develope <b>Responsive Websites, Web Applications from Scratch</b>. These Apps fits on all <b>Screen Size devices</b>, from Large Screen to a Mobile Phone Screen. Also these Apps has favoured<b> SEO high priority</b>.</p>
     			<br />
     			<a href="Contact.php"> Get In Touch Now</a>
+    	     </div>
+    	 </div>
+    		<div class="col-md-5">
+    			<div class="resume_container">
+    				<img src="img/106.jpg" alt="sosten" />
+    				<div class="resume_content">
+    				   <h2>Software Developer</h2>
+    				   <h3>Data Engineer</h3>   				   
+    				   <h4>Forex Technical Analyst</h4>
+    				   <i class="fas fa-envelope" id="email"></i> 
+    				   <p>sostennyirenda@gmail.com</p>
+    				   <i class="fas fa-map-marker-alt" id="location"></i> 
+    				   <p>Zanimuone Lusaka-Zambia</p>
+    				  <i class="fas fa-file" id="file"></i> <a href="#https://google.drive/docs">View My Rresume</a>
+    			</div>
+    		  </div>
+    		  <!-- <div class="down"></div> -->
     		</div>
-    	</div>
      </div>
   </div>
 </div> <!-- End Navigation Bar -->
@@ -131,89 +147,185 @@
 </section>
 
 <section>
-<div class="row">
-  <div class="col-md-4">
-	<div class="activties">
-	  <div class="activties_head">
-		<h1>What I Do</h1>
-	</div>
-		<p id="border"></p>
-		<p><b>I Develope Responsive Websites and Other Softwares</b></p>
-		<p>These Web Apps ranges from :)</p>
-		<ul>
-			<li>E-commerce</li>
-			<li>Business Co-operates</li>
-			<li>Tertiary & Educational</li>
-			<li>Portfolio</li>
-			<li>Blogs</li>
-			<li>Mult Contributer Blogs</li>
-			<li>& you name it I make It</li>
-		</ul>
-		<p><b>Writing about technical and new trends in web development is what I enjoy at my free time</b></p>
-	</div>
-
-		<div class="projects">
+	<!-- order system -->
+	<div class="order_wrapper">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="projects">
 		<h1>Projects</h1>
 		<p id="border"></p>
 	       <p id="title"><i class="fas fa-code"></i> Titandizane Web App</p>
 	       <p>This is a Mult-contributer blog of experts in various fields of profession. It has many features, one of them is E-commerce.</p>
-	      <img src="img/tita1.jpg">
+	      <img src="img/tita2.jpg">
 
          <br>
 	       <p id="title"><i class="fas fa-code"></i> CCZambia Web App</p>
 	      <p>This is one of the amaizing Web Apps; It Connects professional Contractors in Various fields of Constraction </p>
-	       <img src="img/ccz1.jpg">
+	       <img src="img/cczambia.png">
 
 	       <br>
-	       <p id="title"><i class="fas fa-code"></i> CCZambia Web App</p>
-	      <p>This is one of the amaizing Web Apps; It Connects professional Contractors in Various fields of Constraction </p>
-	       <img src="img/cczambia.png">
-	 <a href="#Portfolio.php">View More &raquo</a>
+	         <a href="#Portfolio.php">View More &raquo</a>
+	      </div>
+		</div>
+		<div class="col-md-7">
+		 <div class="order_success">
+		<div class="order_success_head">
+			<h1>What Successful Customers say</h1>
+			<p>It's really encouraging to hear how beautiful designed websites have helped in improving both people and cooperate businesses to scale up </p>
+		</div>
+			<img src="img/13.jpg">
+			<i class="fas fa-quote-left"></i>
+		<div class="order_success_say">
+			<p>Our Business has improved in revenue collection, due to the well designed and responsive website. Thanks to you our sells have really increased. Keep it up, doing greate job</p>
+		</div>
+		   <div class="order_success_people">
+			<p id="order_success_name">Benny Musonda</p>
+			<p>MARKET ANALYST</p>
+		</div>	
+		</div>
+		</div>
+		<div class="col-md-1"></div>
 	</div>
 </div>
-	
-<div class="col-md-5">
-  <div class="latest_article_container">
-	   <div class="latest_article_head">
-		     <h2>Latest Article </h2>
-		     <p>&raquo In Web Development </p>
-	  </div>
-	  <div class="latest_article_content">
-	  	<div class="latest_article_author">
-		<p><i class="far fa-user"></i> Sosten</p>
-		<p><i class="fas fa-globe"></i> Tech</p>
-		<p><i class="far fa-calendar"></i> Sept 7, 2019</p>
-		<p><i class="far fa-comment"></i> 67</p>
-	    </div>
-		     <h3>How To Skyrocket Your Website To The Top Of Google With Properly Planned Offpage Optimization</h3>
+</section>
 
-		<img src="img/campaign.jpg">
-		<p>I don't know about you, but I get extremely excited when I see my new keywords at the top of Google for the very first time. Making big changes in ranking is primarily done by what is called offpage optimization.
-       However, there were two types of search engine optimization. </p>
+<section>
+<div class="row">
+		<div class="col-md-12">
+			<div class="tech_skill_head">
+			<h1>Technical Skills</h1>
+		</div>
+	</div>
+</div>
 
-    <ul>
-    	<li>Onpage Optimization </li>
-    	<li>Offpage Optimization </li>
-    </ul>
-      <p>We've gone over onpage optimization, so let's move on to offpage optimization which is what really makes a HUGE difference in your site's ranking. Properly planned offpage optimization will make the difference between your website ranking number 900, and ranking number 1 on Google! </p>
-      <p>So, what is offpage optimization anyway? Offpage optimization basically consists of all of the ranking factors that are NOT located on your webpage, that the search engines look at when ranking a website.These include:</p>
-  <ul>
-    <li> Which websites link to you</li>
-    <li> The number of websites linking to you</li>
-    <li>The Google Page Rank of the website linking to you</li>
-    <li>The page title of the website linking to you</li>
-    <li> The anchor text used in the link linking to you</li>
-    <li> The number and type of links linking to the website that's linking to you.</li>
-    <li> The number of outbound links on the website that is linking to you</li>
-    <li> The total number of links on the website that is linking to you</li>
-    <li> Whether or not the websites linking to you are deemed by Google as an authority website. ? The IP Address of the websites linking to you.</li>
-</ul>
+<div class="row">
+  <div class="col-md-12">	
+   <div class="slideshow-container">
+	<div class="mySlides fade">
+	   <div class="text">
+          <div class="tex_content">
+              <p>Front-End-Technologies</p>
+          </div>
+        </div>
+			<img src="img/html5.svg" style="width:10%">
+			<img src="img/css3.svg" style="width:10%">
+			<img src="img/javascript1.svg" style="width:10%">
+			<img src="img/bootstrap.svg" style="width:10%">
+			<img src="img/jquery.svg" style="width:10%">
+			<img src="img/react.svg" style="width:10%">
+			<img src="img/vuejs.svg" style="width:10%">
+			<img src="img/django.svg" style="width:10%">
+        </div>
+
+        <div class="mySlides fade">
+	   <div class="text">
+          <div class="tex_content">
+              <p>Back-End-Technologies</p>
+          </div>
+        </div>
+			<img src="img/node-node-js.svg" style="width:10%">
+			<img src="img/php.svg" style="width:10%">
+             
+        </div>
+
+        <div class="mySlides fade">
+	   <div class="text">
+          <div class="tex_content">
+			<p>Mobile Development</p>
+          </div>
+        </div>
+			<img src="img/angular.svg" style="width:10%">
+             
+        </div>
+
+        <div class="mySlides fade">
+	   <div class="text">
+          <div class="tex_content">
+			<p>Version Control</p>
+          </div>
+        </div>
+			<img src="img/git.svg" style="width:10%">
+             
+        </div>
+
+        <div class="mySlides fade">
+	   <div class="text">
+          <div class="tex_content">
+			<p>Data Analysis</p>
+          </div>
+        </div>
+			<img src="img/python.svg" style="width:10%">
+             
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
 </div>
+<br>
+
+<div style="text-align:center" class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
+		</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="activties_wrapper">
+	<div class="activties_bg">
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-6">
+			<div class="activties">
+	          <div class="activties_head">
+		         <h1>What I Do</h1>
+	           </div>
+	               	<p id="border"></p>
+		            <p><b>I Develope Responsive Websites and Other Softwares</b></p>
+		            <p>These Web Apps ranges from :)</p>
+		<ul>
+			<li><i class="fas fa-shopping-cart"></i> E-commerce</li>
+			<li><i class="fas fa-handshake"></i> Business Co-operates</li>
+			<li><i class="fas fa-university"></i> Tertiary & Educational</li>
+			<li><i class="fas fa-user-circle"></i> Portfolio</li>
+			<li><i class="fas fa-user-tag"></i> Blogs</li>
+			<li><i class="fas fa-user-tag"></i> Mult Contributer Blogs</li>
+			<li>& you name it I make It</li>
+		</ul>
+	</div>
+		</div>
+		<div class="col-md-2">
+			
+			
+		
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+   </div>
 </div>
-	<div class="col-md-3">
-		<div class="recent_articles_head">
+</section>
+
+<section>
+	<!-- **************** Article ***************************** -->
+	<div class="article_wrapper">
+	<div class="article_bg">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="article_head" id="Blog">
+			<h1>Blogging</h1>
+			<p>Writting about tech is some thing I appreciate; it has helped developers and tech enthusiast </p>
+		</div>
+		</div>
+	</div>
+<div class="row">
+  <div class="col-md-3">
+	<div class="recent_articles_head">
+	<div class="recent_articles_head_bg">
 		    <h2>Resent Articles</h2>
+	  </div>
 	  </div>
 		<div class="recent_articles_container">
 		<div class="recent_articles_content">
@@ -227,32 +339,71 @@
 	 <!-- *********** Recent Article 2 *************** -->
 	 <div class="recent_articles_author">
 		<p><i class="far fa-calendar"></i> sep 10, 2019</p>
-			<img src="img/joshua.jpg" align="left" hspace="7" vspace="10">
+			<img src="img/102.jpg" align="left" hspace="7" vspace="10">
 			<a href="#Blog.php">Data Science and AI Technology...</a>
 	 </div>
 	 <!-- *********** Recent Article 3 *************** -->
 	 <div class="recent_articles_author">
 		<p><i class="far fa-calendar"></i> sep 10, 2019</p>
-			<img src="img/joshua.jpg" align="left" hspace="7" vspace="10">
+			<img src="img/aragon.jpg" align="left" hspace="7" vspace="10">
 			<a href="#Blog.php">Data Science and AI Technology...</a>
 	 </div>
 	     <br/>
 		<a href="#Blog" id="button">Read More &raquo</a>
 	</div>
 	</div>
+</div>
+	
+<div class="col-md-6">
+	   <div class="latest_article_head">
+	   	<div class="latest_article_head_bg ">
+		     <h2>Latest Article </h2>
+		     <p>&raquo In Web Development </p>
+	  </div>
+	  </div>
+  <div class="latest_article_container">
+	  <div class="latest_article_content">
+	  	<div class="latest_article_author">
+		<p><i class="far fa-user"></i> Sosten</p>
+		<p><i class="fas fa-globe"></i> Tech</p>
+		<p><i class="far fa-calendar"></i> Sept 7, 2019</p>
+		<p><i class="far fa-comment"></i> 67</p>
+	    </div>
+		     <h3>How To Skyrocket Your Website To The Top Of Google With Properly Planned Offpage Optimization</h3>
+
+		<img src="img/campaign.jpg">
+		<p>I don't know about you, but I get extremely excited when I see my new keywords at the top of Google for the very first time. Making big changes in ranking is primarily done by what is called offpage optimization.</p>
+		<a href="#">More &raquo</a>
+        
+</div>
+</div>
+</div>
+
+	<div class="col-md-3">
 
 	<!-- ********* Featured Articles ******** -->
 	<div class="featured_articles_head">
+		<div class="featured_articles_head_bg">
 		<h2>Featured Articles</h2>
 		<p>From different Experts</p>
       </div>
+      </div>
 
-       <div class="featured_articles_container">
 		<div class="featured_articles_content">
 	     <div class="featured_articles_author">
 		   <p><i class="far fa-user"></i> Olivier JM</p>
 		   <p><i class="far fa-calendar"></i> sep 10, 2019</p>
-			<img src="img/joshua.jpg" align="left" vspace="1" hspace="4">
+			<img src="img/steve.jpg" align="left" vspace="1" hspace="4">
+			<a href="#Blog.php">Data Science and AI Technology...</a>
+	    </div>
+    
+	</div>
+	<!-- ************************* -->
+	<div class="featured_articles_content">
+	     <div class="featured_articles_author">
+		   <p><i class="far fa-user"></i> Olivier JM</p>
+		   <p><i class="far fa-calendar"></i> sep 10, 2019</p>
+			<img src="img/ai.jpg" align="left" vspace="1" hspace="4">
 			<a href="#Blog.php">Data Science and AI Technology...</a>
 	    </div>
     
@@ -265,23 +416,13 @@
 			<img src="img/joshua.jpg" align="left" vspace="1" hspace="4">
 			<a href="#Blog.php">Data Science and AI Technology...</a>
 	    </div>
-    
-	</div>
-	<!-- ************************* -->
-	<div class="featured_articles_content">
-	     <div class="featured_articles_author">
-		   <p><i class="far fa-user"></i> Olivier JM</p>
-		   <p><i class="far fa-calendar"></i> sep 10, 2019</p>
-			<img src="img/joshua.jpg" align="left" vspace="1" hspace="4">
-			<a href="#Blog.php">Data Science and AI Technology...</a>
-	    </div>
-    
-	</div>
-	        <br/>
+            <br/>
+            <br/>
 		    <a href="#Blog" id="button">Read More &raquo</a>
-  </div>
-
 	</div>
+	</div>
+</div> <!-- end main row -->
+</div>
 </div>
 </section>
 
@@ -299,22 +440,28 @@
 	 <div class="col-md-12">
 	 	<div class="community_container">
 	 	<div class="row"> <!-- Sub-row -->
-  <div class="col-md-4">
+  <div class="col-md-3">
 	 <div class="community_content">
 	 	<p>Developer Circle From Facebook</p>
 	    <img src="img/dcf1.jpg">
 	</div>
  </div>
-<div class="col-md-4">
+<div class="col-md-3">
 	 <div class="community_content">
 	 	<p>Andela Community</p>
 	 	<img src="img/andela.jpg">
 	</div>
 </div>
-	<div class="col-md-4">
+	<div class="col-md-3">
 	  <div class="community_content">
 	  	<p>Agora Code</p>
 	 	<img src="img/agora.jpg">
+       </div>
+      </div>
+      <div class="col-md-3">
+	  <div class="community_content">
+	  	<p>Tsogolo Tech powered by Zindi</p>
+	 	<img src="img/zindi.png">
        </div>
       </div>
       </div>
@@ -379,5 +526,21 @@
 </div>
 </footer>
 
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 6000); // Change image every 6 seconds
+}
+</script>
 </body>
 </html>

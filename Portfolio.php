@@ -42,11 +42,49 @@
     <div class="description">
     	<div class="row">
     		<div class="col-md-12">
-    			<h1>I Am a Software Developer</h1>
-    			<p>UX/UI Developer by profession;</p>
+    			<div class="myDescrip fade">
+	              <div class="text">
+                    <div class="tex_content">
+                         <h1> I'M A SOFTWARE DEVELOPER</h1>
+    			         <p>UX/UI Developer by profession;</p>
+    			         <p>I Design and Develope Responsive Websites, Web Applications from Scratch. These Apps fits on all Screen Size devices, from Large Screen to a Mobile Phone Screen. Also these Apps has favoured SEO high priority.</p>
+    			    <!-- <br /> -->
+    			<!-- <a href="Contact.php"> Get In Touch Now</a> -->
+                   </div>
+                  </div>
+			          <!-- <img src="img/html5.svg" style="width:10%">
+			          <img src="img/css3.svg" style="width:10%"> -->
+               </div>
+
+        	<div class="myDescrip fade">
+	          <div class="text">
+              <div class="tex_content">
+              <h1> DATA ENGINEER</h1>
+    			<p>Analysing Data;</p>
     			<p>I Design and Develope Responsive Websites, Web Applications from Scratch. These Apps fits on all Screen Size devices, from Large Screen to a Mobile Phone Screen. Also these Apps has favoured SEO high priority.</p>
-    			<br />
-    			<a href="Contact.php"> Get In Touch Now</a>
+    			<!-- <br /> -->
+    			<!-- <a href="Contact.php"> Get In Touch Now</a> -->
+          </div>
+        </div>
+			
+			<!-- <img src="img/css3.svg" style="width:10%"> -->
+        </div>
+
+        <!-- *************************************************** -->
+    	  <div class="myDescrip fade">
+	         <div class="text">
+              <div class="tex_content">
+              <h1> FOREX TECHNICAL ANALYST</h1>
+    			<p>Market Analysis;</p>
+    			<p>I Design and Develope Responsive Websites, Web Applications from Scratch. These Apps fits on all Screen Size devices, from Large Screen to a Mobile Phone Screen. Also these Apps has favoured SEO high priority.</p>
+    			<!-- <br /> -->
+    			<!-- <a href="Contact.php"> Get In Touch Now</a> -->
+          </div>
+        </div>
+			
+			<!-- <img src="img/css3.svg" style="width:10%"> -->
+        </div>
+                <a href="Contact.php"> Get In Touch Now</a>
     		</div>
     	</div>
      </div>
@@ -57,42 +95,60 @@
 	<div class="project_wrapper">
 		<div class="project_bg">
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-1"></div>
+		<div class="col-md-7">
 			<div class="project_head">
 				<i class="fas fa-tools"></i>
 			 <h1>Projects Done</h1>
-			 <p>With Passion and Motivation</p>
+			 <p>With Passion and Motivation. Putting a smile to your business is my priority</p>
+			 <a href="https://www.freecodecamp.org/certification/fcc478f128f-7d5c-4a62-9d7e-99d606dc443a/responsive-web-design">Certfied by the Best Developer Camp</a>
 		</div>
 	</div>
+		<div class="col-md-4">
+			<img src="img/104.jpg" width="100%" style="opacity: 0.4">
+		</div>
 </div>
 <div class="row">
 	<div class="col-md-12">
 		<div class="projcet_container">
+		<div class="project_content_wrapper">
 		<div class="row"> <!-- Sub Row -->
+			<!-- <div class="col-md-1"></div> -->
 			<div class="col-md-4">
+				 <div class="project_img">
+				   <img src="img/tita2.jpg">
 				<div class="project_content">
 				<a href="#https://www.titandizane.net/">
-				<img src="img/tita2.jpg">
 				This is a Mult-contributer blog of experts in various fields of profession. It has many features, one of them is E-commerce.</a>
+				<p><i class="fab fa-github"></i> Repository</p>
+			</div>
 			</div>
 			</div>
 			<!-- ******************************* -->
 			<div class="col-md-4">
-				<div class="project_content">
-				<a href="#https://www.cczambia.com/">
+				 <div class="project_img">
 				<img src="img/cczambia.png">
-                This is one of the amaizing Web Apps; It Connects professional Contractors in Various fields of Constraction </a>
-			</div>
-			</div>
-			<!-- ***************************** -->
-			<div class="col-md-4">
 				<div class="project_content">
 				<a href="#https://www.cczambia.com/">
-				<img src="img/ccz2.jpg">
                 This is one of the amaizing Web Apps; It Connects professional Contractors in Various fields of Constraction </a>
-			   </div>
+				<p><i class="fas fa-desktop"></i> Deployied</p>
 			</div>
 		</div>
+	</div>
+			<!-- ***************************** -->
+			<div class="col-md-4">
+				 <div class="project_img">
+				<img src="img/ccz2.jpg">
+				<div class="project_content">
+				<a href="#https://www.cczambia.com/">
+                This is one of the amaizing Web Apps; It Connects professional Contractors in Various fields of Constraction </a>
+				<p><i class="fab fa-github"></i> Repository</p>
+			   </div>
+			</div>
+			</div>
+			<!-- <div class="col-md-1"></div> -->
+		</div>
+	  </div>
 	  </div>
 	</div>
 </div>
@@ -144,7 +200,7 @@
 		<div class="col-md-12">
 			<div class="other_head">
 				<i class="fas fa-pen"></i>
-			  <h1>Other Work</h1>
+			  <h1>Blogging</h1>
 			  <p>Writting Blogs about Tech is something that I appreciate</p>
 			</div>
 		</div>
@@ -152,140 +208,125 @@
 
 	<div class="row">
 		<div class="col-md-12">
-			<div class="other_container">
-		  <div class="row"> <!-- Sub row -->
-		  	<div class="col-md-6">
-		  		<div class="other_content_1">
-		  			<div class="other_content_1_feature">
-		  				<h1>Featured <span id="category"><i class="fas fa-globe"></i> tech</span></h1>
-		  		     	<img src="img/jefferson1.jpg">
-		  				<p><i class="far fa-user"></i> Olivier JM</p> 
-		  				<p><i class="far fa-calendar"></i> Sep 15, 2019</p>
+		  <div class="other_container_wrapper">
+			  <div class="other_container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="other_content_2">
+		                   <h1>Latest <span id="category"><i class="fas fa-globe"></i> tech</span></h1>
+	  	                      <div class="other_content_2_details">
+	                              <img src="img/campaign.jpg">
+	                              <p><i class="far fa-calendar"></i> Sep 15, 2019</p>
+	  	                          <p><i class="far fa-comment"></i>  73</p>
+	  	                          <p><i class="fas fa-tag"></i> web development</p>
+	  	                          <br>
+	  	                          <a href="#"> How To Skyrocket Your Website To The Top Of Google With Properly Planned Offpage Optimization </a> 
+	  	                    </div>     
+	                  </div>
+				  </div>
+				     <div class="col-md-5">
+						<div class="other_content_1">
+		  			      <div class="other_content_1_feature">
+		  				      <h1>Featured <span id="category"><i class="fas fa-globe"></i> tech</span></h1>
+		  		     	      <img src="img/jefferson1.jpg">
+		  				      <p><i class="far fa-user"></i> Olivier JM</p> 
+		  				      <p><i class="far fa-calendar"></i> Sep 15, 2019</p>
+	  			              <p><i class="far fa-comment"></i>  73</p>
+	  			              <br>
+		  				      <a href="#https://www.host.com/">How to marge Data Science With Web Design and Development</a>
+		  			  </div>
+					</div>
+				</div>
+					<div class="col-md-3">
+						<div class="other_sub_content_head">
+	  		            	<h2>Popular <span id="popular"><i class="fas fa-globe"></i> tech</span></h2>
+	  		         </div>
+				   <div class="other_sub_content">
+	  			     <div class="other_sub_content_details">
+	  			        <p><i class="far fa-calendar"></i> Sep 15, 2019</p>
 	  			        <p><i class="far fa-comment"></i>  73</p>
-		  				<h2><a href="#https://www.host.com/">How to marge Data Science With Web Design and Development</h2></a>
-		  			</div>
-		  			<!-- <div class="tech">
-		  			<p>Technology is the way to go</p>
-		  			 <a href="#https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-		  			 <a href="#https://www.facebook.com/"><i class="fab fa-twitter"></i></a>
-		  			 <a href="#https://www.facebook.com/"><i class="fab fa-github"></i></a>
-		  			</div> -->
-		  		</div>
-		  		 <div class="row"><!-- sub row of other_content_2 (1)-->
-	  	<div class="col-md-12">
-	  		<div class="other_sub_content_head">
-	  			<h2>Popular <span id="category"><i class="fas fa-globe"></i> tech</span></h2>
-	  		</div>
-	  	</div>
-	  </div>
-	  <div class="row"> <!-- sub row of other_content_2  (2)-->
-	  	<div class="col-md-4">
-	  		<div class="other_sub_content">
-	  		  <div class="other_sub_content_details">
-	  			<p><i class="far fa-calendar"></i> Sep 15, 2019</p>
-	  			<p><i class="far fa-comment"></i>  73</p>
-	  			<img src="img/steve.jpg">
-	  		  </div>
-	  			<a href="#Blog.php">5 Ways to Improve your Programming Skills</a>
-	  		</div>
-	  	</div>
-	  	<div class="col-md-4">
-	  		<div class="other_sub_content">
-	  			<div class="other_sub_content_details">
-	  			<p><i class="far fa-calendar"></i> Sep 15, 2019</p>
-	  			<p><i class="far fa-comment"></i>  73</p>
-	  			<img src="img/steve.jpg">
-	  		  </div>
-	  			<a href="#Blog.php">Programming Languages; Which One To Pick?</a>
-	  	</div>
-	  </div>
-	  <div class="col-md-4">
-	  		<div class="other_sub_content">
-	  			<div class="other_sub_content_details">
-	  			<p><i class="far fa-calendar"></i> Sep 15, 2019</p>
-	  			<p><i class="far fa-comment"></i>  73</p>
-	  			<img src="img/steve.jpg">
-	  		  </div>
-	  			<a href="#Blog.php">Job Roles Of A Data Scientist</a>
-	  	</div>
-	  	</div>
-	  	   <button id="popular"><a href="#Blog.php">Read more &raquo</a></button>
-	  </div>
-		  	</div>
-			
- <div class="col-md-6">
-	<div class="other_content_2">
-		 <h1>Latest <span id="category"><i class="fas fa-globe"></i> tech</span></h1>
-		 <h3>How To Skyrocket Your Website To The Top Of Google With Properly Planned Offpage Optimization</h3>
-	  	  <div class="other_content_2_details">
-	        <img src="img/campaign.jpg">
-	         <p><i class="far fa-calendar"></i> Sep 15, 2019</p>
-	  	     <p><i class="far fa-comment"></i>  73</p>
-	  	     <p><i class="fas fa-tag"></i> web development</p>
-	  	 </div>
-		 <p>I don't know about you, but I get extremely excited when I see my new keywords at the top of Google for the very first time. Making big changes in ranking is primarily done by what is called offpage optimization.
-         However, there were two types of search engine optimization. </p>
-		 <a href="#Blog.php">more &raquo</a>
-	  </div>
-      </div>
+	  			        <img src="img/steve.jpg">
+	  		        </div>
+	  			       <a href="#Blog.php">Job Roles Of A Data Scientist</a>
+	           	 </div>
+	           	 <br>
+				   <div class="other_sub_content">
+	  			     <div class="other_sub_content_details">
+	  			        <p><i class="far fa-calendar"></i> Sep 15, 2019</p>
+	  			        <p><i class="far fa-comment"></i>  73</p>
+	  			        <img src="img/steve.jpg">
+	  		        </div>
+	  			       <a href="#Blog.php">Job Roles Of A Data Scientist</a>
+	           	 </div>
+	           	  <a href="#">More blogs</a>
+			   </div>
+		      </div>
+            </div>
+           </div>
+          </div>
+        </div>
+       </div>
      </div>
     </div>
-   </div>
-  </div>
- </div>
-</div>
 </section>
 
 <section>
 	<div class="get_done_form_wrapper">
- <div class="get_done_form_bg">
-	<div class="row">
-		<div class="col-md-12">
-			 <div class="get_done_head">
-			 <div class="get_done_head_bg">
-			 <i class="fas fa-thumbs-up"></i>
-			 <h1>Work With Me</h1>
-			 <p>For Profession work out put</p>
-			 <a href="Contact.php">Hire Me</a>
-		</div>
-		</div>
-	</div>
-	</div>
-
-
+      <div class="get_done_form_bg">
+	     <div class="row">
+		    <div class="col-md-12">
+		 	  <div class="get_done_head">
+			    <div class="get_done_head_bg">
+			      <i class="fas fa-thumbs-up"></i>
+			      <h1>Work With Me</h1>
+			      <p>For Profession work out put</p>
+			      <a href="Contact.php">Hire Me</a>
+		      </div>
+		   </div>
+	    </div>
+	 </div>
+	 <div class="row">
+	   <div class="col-md-3">
+	   	<h2>Choose a Type of project</h2>
+	   </div>
+	   <div class="col-md-6">
+	   	<h2>Register here</h2>
+	   </div>
+	   <div class="col-md-3">
+	   	<h2>The process of getting project done</h2>
+	   </div>
+   </div>
   <div class="row">
-  <div class="col-md-12">
-   <div class="row">
-   	<div class="col-md-3"></div>
-   	<div class="col-md-6">
-   		<div class="get_done_form">
-	<form>
-		<i class="fas fa-user"></i><label for="Fname">Client :</label>
-		<p></p>
-		<input type="text" name="" id="Fname" placeholder="First name" />
-		
-		<label for="Lname"></label>
-		
-		<input type="text" name="" id="Lname" placeholder="Last name" />
-		<p></p>
-		<i class="fas fa-envelope"></i><label for="Email">Email Address :</label>
-		<p></p>
-		<input type="text" name="" id="Email" placeholder="you@example.com" />
-		<p></p>
-		<i class="fas fa-pen"></i>
-		<p></p>
-		<textarea placeholder="Write your message here"></textarea>
-		<p></p>
-		<input type="submit" name="" value="Send">
-	</form>
-</div>
-</div>
-   	<div class="col-md-3"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
+    <div class="col-md-12">
+      <div class="row">
+    	<div class="col-md-3"></div>
+     	   <div class="col-md-6">
+   		     <div class="get_done_form">
+	             <form>
+		              <i class="fas fa-user"></i><label for="Fname">Client :</label>
+		              <p></p>
+		              <input type="text" name="" id="Fname" placeholder="First name" />
+		              <label for="Lname"></label>
+		              <input type="text" name="" id="Lname" placeholder="Last name" />
+		              <p></p>
+		              <i class="fas fa-envelope"></i><label for="Email">Email Address :</label>
+		              <p></p>
+		              <input type="text" name="" id="Email" placeholder="you@example.com" />
+		              <p></p>
+		              <i class="fas fa-pen"></i>
+		              <p></p>
+		              <textarea placeholder="Write your message here"></textarea>
+		              <p></p>
+		              <input type="submit" name="" value="Send">
+	             </form>
+                </div>
+              </div>
+    	     <div class="col-md-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 
@@ -383,6 +424,24 @@
 </div>
 </footer>
 <!-- ############################################### -->
+<!-- script for carousel -->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("myDescrip");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 6000); // Change image every 6 seconds
+}
+</script>
+
  <!-- script for overay Talk to Expert -->
 <script>
 function openExpert() {
